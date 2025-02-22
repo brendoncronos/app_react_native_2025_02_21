@@ -1,12 +1,12 @@
 import { Button } from "react-native";
 import { TouchableOpacity } from "react-native/Libraries/Components/Touchable/TouchableOpacity";
 
-type meubotaoProps = {
+type MeuBotaoProps = {
     titulo: string;
     onPress: () => void;
 }
 
-const meubotao: React.FC<meubotaoProps> = ({ titulo, onPress }) => {
+const MeuBotao: React.FC<MeuBotaoProps> = ({ titulo, onPress }) => {
     return (
 
         <Button onPress={onPress} title={titulo} color="#000">
@@ -20,4 +20,4 @@ const meubotao: React.FC<meubotaoProps> = ({ titulo, onPress }) => {
   };
   
 
-  export default meubotao;
+  export default MeuBotao;

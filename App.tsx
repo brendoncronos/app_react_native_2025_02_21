@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { Alert, StyleSheet, Text, View } from 'react-native';
-import MeuBotao from "./componentes/meubotao";
+import MeuBotao from "./componentes/MeuBotao";
 export default function App() {
   return (
     <View style={styles.container}>
